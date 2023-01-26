@@ -4,3 +4,5 @@ A web-facing program that manages a todo list inside a local postgresql server v
 define any postgres tables or write any SQL queries.
 
 Architecture: postman <---(Spring web mvc / springboot)---> program <---(hibernate)---> local pgsql
+
+The program was later dockerized with a dockerfile and connected to the local postgres server using the host.docker.internal address. Postman again confirmed that it worked.
