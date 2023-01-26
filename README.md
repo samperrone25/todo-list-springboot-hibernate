@@ -5,4 +5,4 @@ define any postgres tables or write any SQL queries.
 
 Architecture: postman <---(Spring web mvc / springboot)---> program <---(hibernate)---> local pgsql
 
-The program was later dockerized with a dockerfile and connected to the local postgres server using the host.docker.internal address. Postman again confirmed that it worked.
+The program was later dockerized with a dockerfile and connected to the local postgres server using the "host.docker.internal" string. Postman again confirmed that it worked.
